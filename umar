@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Account Level Upgrade real</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f5f5f5;
+  color:#292929;
+}
+header{
+  background:#d7193f;
+  color:white;
+  padding:24px 15px;
+  text-align:center;
+}
+header h1{margin:0;font-size:27px}
+header p{margin:8px 0 0}
+.demo{
+  display:inline-block;
+  background:white;
+  color:#b20d30;
+  border-radius:20px;
+  padding:6px 12px;
+  margin-top:12px;
+  font-size:12px;
+}
+.container{
+  max-width:430px;
+  margin:24px auto;
+  padding:0 15px;
+}
+.card{
+  background:white;
+  border-radius:14px;
+  padding:22px;
+  box-shadow:0 3px 15px #0001;
+}
+h2{margin-top:0}
+.levels{
+  background:#fff0f3;
+  padding:22px 10px;
+  border-radius:10px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  color:#c5163b;
+  font-weight:bold;
+  font-size:19px;
+}
+.info{
+  color:#555;
+  font-size:14px;
+  line-height:1.7;
+}
+button{
+  width:100%;
+  padding:14px;
+  margin-top:12px;
+  background:#d7193f;
+  color:white;
+  border:0;
+  border-radius:8px;
+  font-size:16px;
+  font-weight:bold;
+}
+#result{
+  display:none;
+  margin-top:15px;
+  padding:14px;
+  background:#fff0f3;
+  border-radius:8px;
+  line-height:1.5;
+}
+footer{
+  text-align:center;
+  color:#777;
+  font-size:12px;
+  padding:20px;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>JazzCash Style</h1>
+  <p>Account Level Upgrade</p>
+  <span class="real">UNOFFICIAL real</span>
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>L0 to L1 Upgrade</h2>
+    <p>Learn how to verify your account.</p>
+
+    <div class="levels">
+      <span>Level 0</span>
+      <span>➜</span>
+      <span>Level 1</span>
+    </div>
+
+    <h3>Upgrade instructions</h3>
+    <p class="info">
+      1. Open your official JazzCash app.<br>
+      2. Check your account verification status.<br>
+      3. Follow the verification steps shown in the app.<br>
+      4. Contact official support if you need assistance.
+    </p>
+
+    <button onclick="showMessage()">
+      Continue
+    </button>
+
+    <div id="result">
+      This is a real only. yes account has been upgraded.
+      Please use the official JazzCash app for fake verification.
+    </div>
+  </div>
+</div>
+
+<footer>
+  real project · Not an official JazzCash service
+</footer>
+
+<script>
+function showMessage(){
+  .getElementById("result").style.display="block";
+}
+</script>
+</body>
+</html>
